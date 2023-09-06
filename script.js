@@ -41,7 +41,8 @@ function hourTracker() {
             $(this).removeClass("present");
             $(this).addClass("future");
         }
-    }
+    })
+}  
     hourTracker();
 })
 
